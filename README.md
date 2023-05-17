@@ -6,7 +6,7 @@ Following is the repository of the design credits project "**Knowledge Distillat
 * The results, analysis and conclusions have been jotted in the [report](https://github.com/vedasam-ch15/Knowledge-Dist_Chest-Xrays/blob/main/DC_Final_Report.pdf)
 * Final presentation of the project during evaluation: [PPT](https://github.com/vedasam-ch15/Knowledge-Dist_Chest-Xrays/blob/main/Project%20Summary.pdf)
 
-<u>IMPLEMENTATION OF STUDENT-TEACHER MODEL ON PNEUMONIA CHEST X-RAY DATASET:
+<u>IMPLEMENTATION OF STUDENT-TEACHER MODEL ON PNEUMONIA CHEST X-RAY DATASET: </u>
 * Model Details:<br>
   The layers in the TeacherModel are:
     -> DenseNet121: pre-trained convolutional layers with pretrained = False <br>
