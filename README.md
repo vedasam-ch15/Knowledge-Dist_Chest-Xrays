@@ -41,6 +41,7 @@ Following is the repository of the design credits project "**Knowledge Distillat
   ![S_LOSSES](https://github.com/vedasam-ch15/Knowledge-Dist_Chest-Xrays/assets/106541321/907756d4-354c-4d5c-a107-f5e63f4e29a5)
   
  * **Conclusion:** Student performs better when trained with teacher than when performed alone
+ * Other results have been shown in the [report](https://github.com/vedasam-ch15/Knowledge-Dist_Chest-Xrays/blob/main/DC_Final_Report.pdf)
 
   
  
