@@ -25,13 +25,21 @@ Following is the repository of the design credits project "**Knowledge Distillat
     * fc2: A fully connected layer with 512 input features and 2 output features (assuming it is a binary classification problem).<br>
     * ReLU activation function is applied after fc1 layer.<br>
   
-* To the original models, Lr regularization done , Dropout layer added, Weight decay added, Data Augumentation were done for proper fitting
+* To the original models, **Lr regularization done , Dropout layer added, Weight decay added, Data Augumentation were done for proper fitting**
 * Comparision between Student and Teacher:
   - For accuracies:
+  ![ST_ACC](https://github.com/vedasam-ch15/Knowledge-Dist_Chest-Xrays/assets/106541321/417941e7-ce1b-4d64-83f4-1238379bae08)
+
   - For losses:
+  ![ST_LOSSES](https://github.com/vedasam-ch15/Knowledge-Dist_Chest-Xrays/assets/106541321/871b3240-4aac-4c86-add0-29f236036e40)
+
 * Comparision between only Student and Student trained from Teacher:
   - For accuracies:
+  ![S_ACC](https://github.com/vedasam-ch15/Knowledge-Dist_Chest-Xrays/assets/106541321/bf25461f-0fa7-421f-8709-6ae4ff7f5306)
+
   - For losses:
+  ![S_LOSSES](https://github.com/vedasam-ch15/Knowledge-Dist_Chest-Xrays/assets/106541321/907756d4-354c-4d5c-a107-f5e63f4e29a5)
+
   
  
 
