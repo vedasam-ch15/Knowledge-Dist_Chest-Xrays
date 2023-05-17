@@ -9,7 +9,7 @@ Following is the repository of the design credits project "**Knowledge Distillat
 <u>IMPLEMENTATION OF STUDENT-TEACHER MODEL ON PNEUMONIA CHEST X-RAY DATASET:
 * Model Details:
   The layers in the TeacherModel are:
-    -> DenseNet121: pre-trained convolutional layers with pretrained = False \n
+    -> DenseNet121: pre-trained convolutional layers with pretrained = False <br>
     -> Dropout: with probability 0.5 to avoid overfitting
     -> Conv2d: with 512 filters of size 3x3 and padding of 1
     -> ReLU: Rectified Linear Unit activation function
