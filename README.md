@@ -16,6 +16,8 @@ Following is the repository of the design credits project "**Knowledge Distillat
     * MaxPool2d: with kernel size of 7x7 and stride of 1<br>
     * Linear: fully connected layer with 512 input features and 64 output features<br>
     * Linear: fully connected layer with 64 input features and 2 output features<br>
+    <br>
+    
   The layers in the StudentModel are:<br>
     * mobilenet: A MobileNetV2 feature extractor with no weights pretrained.<br>
     * adaptive_pool: An adaptive average pooling layer that reduces the spatial dimensions of the features to a size of (1, 1).<br>
